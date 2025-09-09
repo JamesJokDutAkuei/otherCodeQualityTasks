@@ -12,7 +12,8 @@
 function calculateAverage(numbers){
   let count = numbers.length;
   return numbers
-  .reduce((num, accummulator)=> num + accummulator, 0)/count;
+  .reduce((num, accummulator) => 
+    num + accummulator, 0)/count;
 }
 
 console.log(calculateAverage([1,2,3,4,5,8]))
